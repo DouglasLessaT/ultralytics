@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Abscess', 'Cyst', 'Tumor']
+
+roboflow:
+  workspace: liverify-lophb
+  project: liver-31p6a
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/liverify-lophb/liver-31p6a/dataset/6
